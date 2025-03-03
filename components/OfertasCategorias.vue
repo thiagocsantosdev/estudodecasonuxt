@@ -19,14 +19,18 @@
 import { ref } from "vue";
 
 const products = ref([
-    { name: "Produto 1", image: "banners_index/1.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 2", image: "banners_index/2.png", price: 150, inventoryStatus: "LOWSTOCK" },
-    { name: "Produto 1", image: "banners_index/03.png", price: 100, inventoryStatus: "INSTOCK" }
+    { name: "Produto 1", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 1", image: "CatagoriasIcons/hidraulica.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 1", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 1", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 1", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 1", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
+    
 ]);
 
 const responsiveOptions = ref([
-    { breakpoint: '4000px', numVisible: 1, numScroll: 1 },
-    { breakpoint: '1199px', numVisible: 1, numScroll: 1 },
+    { breakpoint: '4000px', numVisible: 6, numScroll: 1 },
+    { breakpoint: '1199px', numVisible: 6, numScroll: 1 },
     { breakpoint: '767px', numVisible: 1, numScroll: 1 },
     { breakpoint: '575px', numVisible: 1, numScroll: 1 }
 ]);
@@ -52,7 +56,7 @@ const responsiveOptions = ref([
 }
 
 .product-image {
-    width: 100%;
+   width: 250px;
     border-radius: 8px;
 }
 

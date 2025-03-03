@@ -39,9 +39,7 @@ const responsiveOptions = ref([
 
 <style scoped>
 
- .card{
-   
- }
+
 
 
 .product-card {
