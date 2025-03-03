@@ -19,13 +19,14 @@
 import { ref } from "vue";
 
 const products = ref([
-    { name: "Produto 1", image: "banners_index/1mobile.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 2", image: "banners_index/2mobile.png", price: 150, inventoryStatus: "LOWSTOCK" },
-    { name: "Produto 1", image: "banners_index/3mobile.png", price: 100, inventoryStatus: "INSTOCK" }
+    { name: "Produto 1", image: "banners_index/mobile4.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 2", image: "banners_index/mobile5.png", price: 150, inventoryStatus: "LOWSTOCK" },
+    { name: "Produto 1", image: "banners_index/mobile6.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 1", image: "banners_index/mobile7.png", price: 100, inventoryStatus: "INSTOCK" }
 ]);
 
 const responsiveOptions = ref([
-    { breakpoint: '4000px', numVisible: 1, numScroll: 1 },
+    { breakpoint: '4000px', numVisible: 1, numScroll: 2 },
     { breakpoint: '1199px', numVisible: 1, numScroll: 1 },
     { breakpoint: '767px', numVisible: 1, numScroll: 1 },
     { breakpoint: '575px', numVisible: 1, numScroll: 1 }
@@ -37,24 +38,34 @@ const responsiveOptions = ref([
 </script>
 
 <style scoped>
+
+
+
+
+
 .product-card {
     border: 1px solid var(--surface-200);
     border-radius: 8px;
     margin: 2px;
     padding: 2px;
-    background-color: white;
+ 
+
+   
+
 }
 
 .image-container {
     position: relative;
     width: 100%;
     text-align: center;
+
 }
 
 .product-image {
     width: 100%;
     border-radius: 8px;
 }
+
 
 
 

@@ -17,7 +17,10 @@
 
 
 <style scoped>
-
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
 
 .main{
     display: grid;
