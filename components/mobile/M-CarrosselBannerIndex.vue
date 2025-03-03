@@ -39,16 +39,18 @@ const responsiveOptions = ref([
 
 <style scoped>
 
-
-
+ .card{
+    margin-left: -50px;
+    margin-right: -50px;
+ }
 
 
 .product-card {
     border: 1px solid var(--surface-200);
     border-radius: 8px;
-    margin: 2px;
+    margin:2px;
     padding: 2px;
- 
+    margin-top: 20px;
 
    
 
