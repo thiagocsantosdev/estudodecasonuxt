@@ -19,9 +19,9 @@
 import { ref } from "vue";
 
 const products = ref([
-    { name: "Produto 1", image: "banners_index/1.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 2", image: "banners_index/2.png", price: 150, inventoryStatus: "LOWSTOCK" },
-    { name: "Produto 1", image: "banners_index/03.png", price: 100, inventoryStatus: "INSTOCK" }
+    { name: "Produto 1", image: "banners_index/1mobile.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 2", image: "banners_index/2mobile.png", price: 150, inventoryStatus: "LOWSTOCK" },
+    { name: "Produto 1", image: "banners_index/3mobile.png", price: 100, inventoryStatus: "INSTOCK" }
 ]);
 
 const responsiveOptions = ref([
@@ -40,8 +40,8 @@ const responsiveOptions = ref([
 .product-card {
     border: 1px solid var(--surface-200);
     border-radius: 8px;
-    margin: 8px;
-    padding: 16px;
+    margin: 2px;
+    padding: 2px;
     background-color: white;
 }
 
@@ -56,28 +56,8 @@ const responsiveOptions = ref([
     border-radius: 8px;
 }
 
-.tag-status {
-    position: absolute;
-    left: 5px;
-    top: 5px;
-}
 
-.product-name {
-    font-weight: 500;
-    margin-top: 12px;
-}
 
-.product-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 12px;
-}
-
-.product-price {
-    font-weight: 600;
-    font-size: 1.2rem;
-}
 
 
 </style>
