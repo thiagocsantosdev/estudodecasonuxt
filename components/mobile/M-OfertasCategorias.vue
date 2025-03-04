@@ -19,13 +19,13 @@
 import { ref } from "vue";
 
 const products = ref([
-    { name: "Produto 1", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 1", image: "CatagoriasIcons/ELETRICA.png", price: 100, inventoryStatus: "INSTOCK" },
     { name: "Produto 2", image: "CatagoriasIcons/hidraulica.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 3", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 4", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 5", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 6", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 7", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 3", image: "CatagoriasIcons/ELETRICA.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 4", image: "CatagoriasIcons/ELETRICA.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 5", image: "CatagoriasIcons/ELETRICA.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 6", image: "CatagoriasIcons/ELETRICA.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 7", image: "CatagoriasIcons/ELETRICA.png", price: 100, inventoryStatus: "INSTOCK" },
     
 ]);
 
