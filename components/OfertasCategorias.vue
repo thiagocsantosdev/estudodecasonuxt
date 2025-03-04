@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <Carousel :value="products" :numVisible="3" :showNavigators="false" :numScroll="1" :responsiveOptions="responsiveOptions" circular :autoplayInterval="3000">
+        <Carousel :value="products" :numVisible="6" :showNavigators="true" :numScroll="1" :responsiveOptions="responsiveOptions" circular :autoplayInterval="4000">
             <template #item="slotProps">
                 <div class="product-card">
                     <div class="image-container">
@@ -25,6 +25,7 @@ const products = ref([
     { name: "Produto 1", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
     { name: "Produto 1", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
     { name: "Produto 1", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 1", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" }
     
 ]);
 
@@ -56,32 +57,12 @@ const responsiveOptions = ref([
 }
 
 .product-image {
-   width: 250px;
+   width: 180px;
     border-radius: 8px;
 }
 
-.tag-status {
-    position: absolute;
-    left: 5px;
-    top: 5px;
-}
 
-.product-name {
-    font-weight: 500;
-    margin-top: 12px;
-}
 
-.product-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 12px;
-}
-
-.product-price {
-    font-weight: 600;
-    font-size: 1.2rem;
-}
 
 
 </style>

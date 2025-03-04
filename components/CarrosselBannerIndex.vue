@@ -21,7 +21,8 @@ import { ref } from "vue";
 const products = ref([
     { name: "Produto 1", image: "banners_index/1.png", price: 100, inventoryStatus: "INSTOCK" },
     { name: "Produto 2", image: "banners_index/2.png", price: 150, inventoryStatus: "LOWSTOCK" },
-    { name: "Produto 1", image: "banners_index/03.png", price: 100, inventoryStatus: "INSTOCK" }
+    { name: "Produto 1", image: "banners_index/03.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 1", image: "banners_index/4.png", price: 100, inventoryStatus: "INSTOCK" }
 ]);
 
 const responsiveOptions = ref([

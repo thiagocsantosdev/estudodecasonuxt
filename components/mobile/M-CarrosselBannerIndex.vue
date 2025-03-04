@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <Carousel :value="products" :showNavigators="false" :numVisible="3" :numScroll="1" :responsiveOptions="responsiveOptions" circular :autoplayInterval="3000">
+        <Carousel :value="products" :showNavigators="false"  :numVisible="3" :numScroll="1" :responsiveOptions="responsiveOptions" circular :autoplayInterval="3000">
             <template #item="slotProps">
                 <div class="product-card">
                     <div class="image-container">
@@ -19,10 +19,10 @@
 import { ref } from "vue";
 
 const products = ref([
-    { name: "Produto 1", image: "banners_index/mobile4.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 2", image: "banners_index/mobile5.png", price: 150, inventoryStatus: "LOWSTOCK" },
-    { name: "Produto 1", image: "banners_index/mobile6.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 1", image: "banners_index/mobile7.png", price: 100, inventoryStatus: "INSTOCK" }
+    { name: "Produto 1", image: "banners_index/m1.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 2", image: "banners_index/m2.png", price: 150, inventoryStatus: "LOWSTOCK" },
+    { name: "Produto 1", image: "banners_index/m3.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 1", image: "banners_index/m4.png", price: 100, inventoryStatus: "INSTOCK" }
 ]);
 
 const responsiveOptions = ref([

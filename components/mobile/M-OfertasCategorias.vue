@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <Carousel :value="products" :numVisible="4" :showNavigators="false" :numScroll="1" :responsiveOptions="responsiveOptions" circular >
+        <Carousel :value="products" :numVisible="4" :showNavigators="true" :showIndicators="false" :numScroll="1" :responsiveOptions="responsiveOptions" circular >
             <template #item="slotProps">
                 <div class="product-card">
                     <div class="image-container">
