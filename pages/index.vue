@@ -6,10 +6,13 @@
 
   
     <CustomHeader></CustomHeader>
+
     <CarrosselBannerIndex v-if="!isMobile"></CarrosselBannerIndex>
     <MobileMCarrosselBannerIndex v-if="isMobile"></MobileMCarrosselBannerIndex>
+
     <OfertasCategorias v-if="!isMobile"></OfertasCategorias>
-     <MobileMOfertasCategorias v-if="isMobile"></MobileMOfertasCategorias>       
+    <MobileMOfertasCategorias v-if="isMobile"></MobileMOfertasCategorias>    
+
 </div>
 
 </div>
@@ -17,10 +20,7 @@
 
 
 <style scoped>
-html, body {
-    width: 100%;
-    overflow-x: hidden;
-}
+
 
 .main{
     display: grid;
