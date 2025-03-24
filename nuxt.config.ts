@@ -16,5 +16,10 @@ export default defineNuxtConfig({
               }
             }
         }
-    }
+    },
+    devServer: {
+        host: '0.0.0.0', // Permite acesso pela rede
+        port: 3000
+      }
+
 })

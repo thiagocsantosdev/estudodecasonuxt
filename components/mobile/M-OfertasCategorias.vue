@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <Carousel :value="products" :numVisible="4" :showNavigators="true" :showIndicators="false" :numScroll="1" :responsiveOptions="responsiveOptions" circular >
+        <Carousel :value="products" :numVisible="5" :showNavigators="true" :showIndicators="false" :numScroll=".5" :responsiveOptions="responsiveOptions" circular >
             <template #item="slotProps">
                 <div class="product-card">
                     <div class="image-container">
@@ -19,21 +19,22 @@
 import { ref } from "vue";
 
 const products = ref([
-    { name: "Produto 1", image: "CatagoriasIcons/ELETRICA.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 1", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
     { name: "Produto 2", image: "CatagoriasIcons/hidraulica.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 3", image: "CatagoriasIcons/ELETRICA.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 4", image: "CatagoriasIcons/ELETRICA.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 5", image: "CatagoriasIcons/ELETRICA.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 6", image: "CatagoriasIcons/ELETRICA.png", price: 100, inventoryStatus: "INSTOCK" },
-    { name: "Produto 7", image: "CatagoriasIcons/ELETRICA.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 3", image: "CatagoriasIcons/ferramentas.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 4", image: "CatagoriasIcons/iluminacao.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 5", image: "CatagoriasIcons/pintura.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 6", image: "CatagoriasIcons/smart.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 7", image: "CatagoriasIcons/ventilacao.png", price: 100, inventoryStatus: "INSTOCK" },
+
     
 ]);
 
 const responsiveOptions = ref([
     { breakpoint: '4000px', numVisible: 5, numScroll: 1 },
     { breakpoint: '1199px', numVisible: 6, numScroll: 1 },
-    { breakpoint: '767px', numVisible: 5, numScroll: 1 },
-    { breakpoint: '575px', numVisible: 4, numScroll: 1 }
+    { breakpoint: '767px', numVisible: 3, numScroll: 1 },
+    { breakpoint: '575px', numVisible: 3, numScroll: 1 }
 ]);
 
 
@@ -62,7 +63,7 @@ const responsiveOptions = ref([
 }
 
 .product-image {
-   width: 80px;
+   width: 90px;
     border-radius: 8px;
 }
 

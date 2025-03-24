@@ -11,7 +11,14 @@
     <MobileMCarrosselBannerIndex v-if="isMobile"></MobileMCarrosselBannerIndex>
 
     <OfertasCategorias v-if="!isMobile"></OfertasCategorias>
+      <MobileMOfertasCategorias v-if="!isDesktop"></MobileMOfertasCategorias>
+    
+      <SecaoPromocional1 v-if="!isMobile"></SecaoPromocional1>
+
+      <mobileM-CarrousselOfertas1></mobileM-CarrousselOfertas1>
       
+        
+      <CarrousselOfertas1 v-if="!isMobile"></CarrousselOfertas1>
 
 </div>
 
