@@ -2,8 +2,8 @@
     <div class="card">
         <p class="title">
             <h1>Principais Ofertas</h1>
-        </p>
-        <Carousel :value="products" :numVisible="3" :numScroll="1" :showIndicators="false" :showNavigators="false" :responsiveOptions="responsiveOptions">
+        </p> 
+        <Carousel :value="products" :numVisible="2" :showNavigators="false" :numScroll="1" :responsiveOptions="responsiveOptions">
             <template #item="{ data }">
                 <div class="product-card">
                     <div class="image-container">
@@ -31,10 +31,10 @@ import { ref, onMounted } from "vue";
 
 const products = ref([]);
 const responsiveOptions = ref([
-    { breakpoint: '1400px', numVisible: 6, numScroll: 1 },
-    { breakpoint: '1199px', numVisible: 6, numScroll: 1 },
+    { breakpoint: '1400px', numVisible: 3, numScroll: 1},
+    { breakpoint: '1199px', numVisible: 3, numScroll: 1},
     { breakpoint: '767px', numVisible: 2, numScroll: 1 },
-    { breakpoint: '575px', numVisible: 6, numScroll: 1 }
+    { breakpoint: '575px', numVisible: 2, numScroll: 1 }
 ]);
 
 const fetchProducts = async () => {
@@ -65,7 +65,7 @@ const getSeverity = (status) => {
 
 
 .card{
-    width: 98dvw;
+    width: 100dvw;
 }
 
 .title{
@@ -83,7 +83,7 @@ const getSeverity = (status) => {
     text-align: center;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     background-color: white;
-    width: 220px;
+    width: 180px;
     height: 300px;
     margin: 5px;
 }
