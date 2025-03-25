@@ -2,9 +2,7 @@ import Aura from '@primeuix/themes/aura';
 
 export default defineNuxtConfig({
 
-    modules: [
-        '@primevue/nuxt-module'
-    ],
+    modules: ['@primevue/nuxt-module', '@nuxtjs/google-fonts'],
     primevue: {
    
         options: {
