@@ -1,5 +1,8 @@
 <template>
     <div class="card">
+        <p class="title">
+            Principais Ofertas
+        </p> 
         <Carousel :value="products" :numVisible="6" :numScroll="1" :responsiveOptions="responsiveOptions">
             <template #item="{ data }">
                 <div class="product-card">
@@ -69,6 +72,14 @@ const getSeverity = (status) => {
     background-color: white;
     width: 200px;
     height: 300px;
+    margin-top: 20px;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    margin-top: 60px;
+    margin-left: 40px;
 }
 
 /* Estilização da imagem */
@@ -89,6 +100,7 @@ const getSeverity = (status) => {
     position: absolute;
     top: 5px;
     left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Nome do produto */

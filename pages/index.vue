@@ -15,11 +15,17 @@
     
       <SecaoPromocional1 v-if="!isMobile"></SecaoPromocional1>
 
-      <mobileM-CarrousselOfertas1></mobileM-CarrousselOfertas1>
-      
+      <mobileM-CarrousselOfertas1 v-if="!isDesktop"></mobileM-CarrousselOfertas1>
+      <mobileM-CarrousselOfertas2 v-if="!isDesktop"></mobileM-CarrousselOfertas2>
         
       <CarrousselOfertas1 v-if="!isMobile"></CarrousselOfertas1>
+        <mobileM-Product-destaque v-if="isMobile"></mobileM-Product-destaque>
 
+    
+
+        <EscolhaComodos></EscolhaComodos>
+
+        <CarrousselOfertas2></CarrousselOfertas2>
 </div>
 
 </div>
