@@ -21,7 +21,7 @@ ul{
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     gap: 5px;
-  
+    list-style: none;
 
 }
 

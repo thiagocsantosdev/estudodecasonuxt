@@ -26,6 +26,13 @@
         <EscolhaComodos></EscolhaComodos>
 
         <CarrousselOfertas2></CarrousselOfertas2>
+
+        <MarcaPromocional1></MarcaPromocional1>
+
+        <CarrousselOfertas2></CarrousselOfertas2>
+
+        <CustomFooter></CustomFooter>
+        
 </div>
 
 </div>
