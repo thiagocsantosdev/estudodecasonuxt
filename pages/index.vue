@@ -31,8 +31,10 @@
 
         <CarrousselOfertas2></CarrousselOfertas2>
 
-        <CustomFooter></CustomFooter>
+      <NewsLetters></NewsLetters>
         
+
+      <CustomFooter></CustomFooter>
 </div>
 
 </div>
