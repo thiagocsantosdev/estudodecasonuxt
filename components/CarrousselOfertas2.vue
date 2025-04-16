@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <p class="title">
-            Mais ofertas
+            Principais Ofertas
         </p> 
         <Carousel :value="products" :numVisible="6" :numScroll="1" :responsiveOptions="responsiveOptions">
             <template #item="{ data }">
@@ -15,8 +15,8 @@
                         <div class="product-footer">
                             <span class="product-price">R$:{{ data.price }}</span>
                             <div class="buttons">
-                                <Button icon="pi pi-heart" severity="secondary" outlined />
-                                <Button icon="pi pi-shopping-cart" class="ml-2"/>
+
+                               <button>Comprar</button>
                             </div>
                         </div>
                     </div>
@@ -73,6 +73,8 @@ const getSeverity = (status) => {
     width: 200px;
     height: 300px;
     margin-top: 20px;
+    display: grid;
+    place-items: center;
 }
 
 .title{
@@ -126,8 +128,20 @@ const getSeverity = (status) => {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.buttons {
-    display: flex;
-    gap: 10px;
+button{
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    opacity: .8;
+    transition: 600ms;
+}
+
+
+button:hover{
+    cursor: pointer;
+    opacity: 1;
+    transition: 600ms;
 }
 </style>

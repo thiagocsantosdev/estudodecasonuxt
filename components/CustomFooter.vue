@@ -3,6 +3,8 @@
  <div class="container">
     <ul class="sub-container">
         <li><img src="/logo.png" alt=""></li>
+
+        <li>Avenida Rua 01 Bairro Centro </li>
         <li class="content-text">
             <p>
                 Formas de pagamento:
@@ -32,7 +34,7 @@
 </li>
             </ul>
         </li>
-        <li>by  <a href="http://thiagocsantosdev.com.br"></a> thiagocsantosdev </li>
+     
 
     </ul>
  </div>

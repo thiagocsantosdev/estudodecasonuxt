@@ -2,15 +2,14 @@
     <div class="card">
         <Carousel :value="products" :numVisible="6" :showNavigators="true" showIndicators="false" :numScroll="1" :responsiveOptions="responsiveOptions" >
             <template #item="slotProps">
-                <div class="product-card">
-                    <div class="image-container">
-                        <img :src="slotProps.data.image" :alt="slotProps.data.name" class="product-image" />
-                      
-                    </div>
-                   
-                  
-                </div>
-            </template>
+   
+        <div class="image-container">
+            <a :href="slotProps.data.link">
+            <img :src="slotProps.data.image" :alt="slotProps.data.name" class="product-image" />
+        </a>
+        </div>
+
+</template>
         </Carousel>
     </div>
 </template>
@@ -19,7 +18,7 @@
 import { ref } from "vue";
 
 const products = ref([
-{ name: "Produto 1", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK" },
+{ name: "Produto 1", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK", link: "/categoria/eletrica"},
     { name: "Produto 2", image: "CatagoriasIcons/hidraulica.png", price: 100, inventoryStatus: "INSTOCK" },
     { name: "Produto 3", image: "CatagoriasIcons/ferramentas.png", price: 100, inventoryStatus: "INSTOCK" },
     { name: "Produto 4", image: "CatagoriasIcons/iluminacao.png", price: 100, inventoryStatus: "INSTOCK" },
@@ -34,7 +33,6 @@ const responsiveOptions = ref([
     { breakpoint: '767px', numVisible: 1, numScroll: 1 },
     { breakpoint: '575px', numVisible: 1, numScroll: 1 }
 ]);
-
 
 
 

@@ -16,8 +16,8 @@ export default defineEventHandler(() => {
         },
         {
             id: 3,
-            name: "Lãmpada Foxlux 9w 6500k",
-            price: 2.90,
+            name: "Lampada Foxlux 9w 6500k",
+            price: 2.95,
             image: "/produtos/superpromo/lampada-9w-fox-6500k.png",
             inventoryStatus: ""
         },

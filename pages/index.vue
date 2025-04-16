@@ -5,7 +5,7 @@
     <div class="container-main">
 
   
-    <CustomHeader></CustomHeader>
+
 
     <CarrosselBannerIndex v-if="!isMobile"></CarrosselBannerIndex>
     <MobileMCarrosselBannerIndex v-if="isMobile"></MobileMCarrosselBannerIndex>
@@ -34,7 +34,7 @@
       <NewsLetters></NewsLetters>
         
 
-      <CustomFooter></CustomFooter>
+     
 </div>
 
 </div>
