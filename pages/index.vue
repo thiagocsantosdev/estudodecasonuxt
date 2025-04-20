@@ -7,33 +7,33 @@
   
 
 
-    <CarrosselBannerIndex v-if="!isMobile"></CarrosselBannerIndex>
+     <CarrosselBannerIndex v-if="isDesktop"></CarrosselBannerIndex>
     <MobileMCarrosselBannerIndex v-if="isMobile"></MobileMCarrosselBannerIndex>
 
-    <OfertasCategorias v-if="!isMobile"></OfertasCategorias>
+   <OfertasCategorias v-if="!isMobile"></OfertasCategorias> 
       <MobileMOfertasCategorias v-if="!isDesktop"></MobileMOfertasCategorias>
     
-      <SecaoPromocional1 v-if="!isMobile"></SecaoPromocional1>
+      <SecaoPromocional1 v-if="!isMobile"></SecaoPromocional1> 
 
       <mobileM-CarrousselOfertas1 v-if="!isDesktop"></mobileM-CarrousselOfertas1>
       <mobileM-CarrousselOfertas2 v-if="!isDesktop"></mobileM-CarrousselOfertas2>
         
-      <CarrousselOfertas1 v-if="!isMobile"></CarrousselOfertas1>
-        <mobileM-Product-destaque v-if="isMobile"></mobileM-Product-destaque>
+     <CarrousselOfertas1 v-if="!isMobile"></CarrousselOfertas1> 
+      
 
     
 
-        <EscolhaComodos></EscolhaComodos>
+   
 
-        <CarrousselOfertas2></CarrousselOfertas2>
+   <CarrousselOfertas2 v-if='isDesktop'></CarrousselOfertas2> 
 
-        <MarcaPromocional1></MarcaPromocional1>
+       <MarcaPromocional1 v-if="!isMobile"></MarcaPromocional1> 
 
-        <CarrousselOfertas2></CarrousselOfertas2>
+       <CarrousselOfertas2 v-if="isDesktop"></CarrousselOfertas2> 
 
-      <NewsLetters></NewsLetters>
+  
         
-
+       <NewsLetters></NewsLetters>
      
 </div>
 
