@@ -1,7 +1,11 @@
 <template>
-    <CustomHeader></CustomHeader>
+     <div>
+        <CustomHeader></CustomHeader>
+    
+   
     
     <slot />
 
     <CustomFooter></CustomFooter>
+  </div>
 </template>

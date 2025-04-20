@@ -6,6 +6,7 @@
             <PagesEletricaBanner></PagesEletricaBanner>
             <CarrousselOfertas1></CarrousselOfertas1>
             <CarrousselOfertas1></CarrousselOfertas1>
+           <PagesEletricaAlertVideo></PagesEletricaAlertVideo>
             <CarrousselOfertas1></CarrousselOfertas1>
         </div>
     </main>

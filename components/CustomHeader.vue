@@ -46,73 +46,39 @@ const items = ref([
                 {
                     items: [
                         { label: 'Fios e Cabos', icon: '/produto2.png', subtext: 'Flexível, Rígido, Antichamas' },
-                        { label: 'Disjuntores', icon: 'menuIcons/disjuntor-mono-40a.png', subtext: 'Monofásico, Bifásico, IDR, DPS' },
-                        { label: 'Quadro Distribuição', icon: 'menuIcons/quadro.png', subtext: 'Subtext of item' }
+                        { label: 'Disjuntores', icon: '/disjuntor-mono-40a.png', subtext: 'Monofásico, Bifásico, IDR, DPS' },
+                        { label: 'Quadro Distribuição', icon: '/quadro.png', subtext: 'Subtext of item' }
                     ]
                 }
             ],
             [
                 {
                     items: [
-                        { label: 'Fitas Isolantes', icon: 'menuIcons/fita-isolante.png', subtext: 'Baixa e Alta Tensão' },
-                        { label: 'Conectores e Terminais', icon: 'menuIcons/conector.png', subtext: 'SPlit bolt, Derivação, Sapatinho' },
-                        { label: 'Eletrodutos', icon: 'menuIcons/eletroduto.png', subtext: 'Subtext of item' }
+                        { label: 'Fitas Isolantes', icon: '/fita-isolante.png', subtext: 'Baixa e Alta Tensão' },
+                        { label: 'Conectores e Terminais', icon: '/conector.png', subtext: 'SPlit bolt, Derivação, Sapatinho' },
+                        { label: 'Eletrodutos', icon: '/eletroduto.png', subtext: 'Subtext of item' }
                     ]
                 }
             ],
             [
                 {
                     items: [
-                        { label: 'Tomadas e Interruptores', icon: 'menuIcons/tomada.png', subtext: 'Subtext of item' },
-                        { label: 'Lâmpadas e Painéis', icon: 'menuIcons/lampada.png', subtext: 'Subtext of item' },
-                        { label: 'Sensores', icon: 'menuIcons/sensor.png', subtext: 'Subtext of item' }
+                        { label: 'Tomadas e Interruptores', icon: '/tomada.png', subtext: 'Subtext of item' },
+                        { label: 'Lâmpadas e Painéis', icon: '/lampada.png', subtext: 'Subtext of item' },
+                        { label: 'Sensores', icon: '/sensor.png', subtext: 'Subtext of item' }
                     ]
                 }
             ],
             [
                 {
-                    items: [{ image: 'menuIcons/eletricaBannerMenu.png', label: 'Compre pelo WhatsApp', subtext: 'Antecipe suas compras' }]
+                    items: [{ image: 'eletricaBannerMenu.png', label: 'Compre pelo WhatsApp', subtext: 'Antecipe suas compras' }]
                 }
             ]
         ]
-    }, {
-        label: 'Hidráulica',
-        root: true,
-        items: [
-            [
-                {
-                    items: [
-                        { label: 'Fios e Cabos', icon: '/produto2.png', subtext: 'Flexível, Rígido, Antichamas' },
-                        { label: 'Disjuntores', icon: 'menuIcons/disjuntor-mono-40a.png', subtext: 'Monofásico, Bifásico, IDR, DPS' },
-                        { label: 'Quadro Distribuição', icon: 'menuIcons/quadro.png', subtext: 'Subtext of item' }
-                    ]
-                }
-            ],
-            [
-                {
-                    items: [
-                        { label: 'Fitas Isolantes', icon: 'menuIcons/fita-isolante.png', subtext: 'Baixa e Alta Tensão' },
-                        { label: 'Conectores e Terminais', icon: 'menuIcons/conector.png', subtext: 'SPlit bolt, Derivação, Sapatinho' },
-                        { label: 'Eletrodutos', icon: 'menuIcons/eletroduto.png', subtext: 'Subtext of item' }
-                    ]
-                }
-            ],
-            [
-                {
-                    items: [
-                        { label: 'Tomadas e Interruptores', icon: 'menuIcons/tomada.png', subtext: 'Subtext of item' },
-                        { label: 'Lâmpadas e Painéis', icon: 'menuIcons/lampada.png', subtext: 'Subtext of item' },
-                        { label: 'Sensores', icon: 'menuIcons/sensor.png', subtext: 'Subtext of item' }
-                    ]
-                }
-            ],
-            [
-                {
-                    items: [{ image: 'menuIcons/eletricaBannerMenu.png', label: 'Compre pelo WhatsApp', subtext: 'Antecipe suas compras' }]
-                }
-            ]
-        ]
-    }
+    }, 
+            
+        
+    
 ]);
 </script>
 
