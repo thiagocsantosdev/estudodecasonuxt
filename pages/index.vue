@@ -7,7 +7,7 @@
   
 
 
-     <CarrosselBannerIndex v-if="isDesktop"></CarrosselBannerIndex>
+     <CarrosselBannerIndex v-if="!isMobile"></CarrosselBannerIndex>
     <MobileMCarrosselBannerIndex v-if="isMobile"></MobileMCarrosselBannerIndex>
 
    <OfertasCategorias v-if="!isMobile"></OfertasCategorias> 
@@ -27,13 +27,13 @@
 
    <CarrousselOfertas2 v-if='isDesktop'></CarrousselOfertas2> 
 
-       <MarcaPromocional1 v-if="!isMobile"></MarcaPromocional1> 
+       
 
        <CarrousselOfertas2 v-if="isDesktop"></CarrousselOfertas2> 
 
   
-        
-       <NewsLetters></NewsLetters>
+        <M-CustomFooter v-if="isMobile"></M-CustomFooter>
+       
      
 </div>
 

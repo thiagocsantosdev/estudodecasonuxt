@@ -45,20 +45,28 @@
 
 .container{
     background-color: rgb(226, 223, 223);
-    height: 200px;
+    
   margin-bottom: -20px;
     width: 100%;
     border-radius: 15px 15px 0px 0px;
-    display: grid;
-    place-items: center;
+   display: flex;
+   flex-wrap: wrap;
+  
+ 
 }
 
 ul{
-    display: grid;
-    place-items: center;
-    grid-template-columns: 1fr 2fr 1fr 1fr;
+    
     list-style: none;
-   
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+ 
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+
+  width: 100%;
 }
 
 img{

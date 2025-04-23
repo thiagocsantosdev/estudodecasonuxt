@@ -1,6 +1,6 @@
 <template>
     <ThemeSwitcher />
-    <div class="card">
+    <div class="card" v-cloak>
         <MegaMenu :model="items" class="title" style="border-radius: 3rem">
             <template #start>
                 <NuxtLink to="/">
@@ -78,7 +78,7 @@ const items = ref([
             ],
             [
                 {
-                    items: [{ image: 'eletricaBannerMenu.png', label: 'Compre pelo WhatsApp', subtext: 'Antecipe suas compras' }]
+                    items: [{ image: 'banner-eletrica-wp.png', label: 'Compre pelo WhatsApp', subtext: 'Antecipe suas compras' }]
                 }
             ]
         ]
@@ -178,5 +178,10 @@ const items = ref([
     flex-direction: column;
     gap: 16px;
     padding: 8px;
+}
+
+
+[v-cloak] {
+  display: none !important;
 }
 </style>
