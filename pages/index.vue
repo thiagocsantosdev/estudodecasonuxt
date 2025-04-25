@@ -11,12 +11,12 @@
     <MobileMCarrosselBannerIndex v-if="isMobile"></MobileMCarrosselBannerIndex>
 
    <OfertasCategorias v-if="!isMobile"></OfertasCategorias> 
-      <MobileMOfertasCategorias v-if="!isDesktop"></MobileMOfertasCategorias>
+      <MobileMOfertasCategorias v-if="isMobile"></MobileMOfertasCategorias>
     
       <SecaoPromocional1 v-if="!isMobile"></SecaoPromocional1> 
 
-      <mobileM-CarrousselOfertas1 v-if="!isDesktop"></mobileM-CarrousselOfertas1>
-      <mobileM-CarrousselOfertas2 v-if="!isDesktop"></mobileM-CarrousselOfertas2>
+      <mobileM-CarrousselOfertas1 v-if="isMobile"></mobileM-CarrousselOfertas1>
+      <mobileM-CarrousselOfertas2 v-if="isMobile"></mobileM-CarrousselOfertas2>
         
      <CarrousselOfertas1 v-if="!isMobile"></CarrousselOfertas1> 
       
@@ -63,7 +63,7 @@ import { useWindowSize } from "@vueuse/core";
 
 const { width } = useWindowSize();
 
-const isMobile = computed(() => width.value < 868);
+const isMobile = computed(() => width.value < 1024);
 
 const isDesktop = computed(() => width.value >= 1024);
 
