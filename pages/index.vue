@@ -7,30 +7,33 @@
   
 
 
-     <CarrosselBannerIndex v-if="!isMobile"></CarrosselBannerIndex>
+    <!-- <CarrosselBannerIndex v-if="!isMobile"></CarrosselBannerIndex>--> 
     <MobileMCarrosselBannerIndex v-if="isMobile"></MobileMCarrosselBannerIndex>
 
-   <OfertasCategorias v-if="!isMobile"></OfertasCategorias> 
+  
+   <!--  <OfertasCategorias v-if="!isMobile"></OfertasCategorias>  -->
       <MobileMOfertasCategorias v-if="isMobile"></MobileMOfertasCategorias>
     
-      <SecaoPromocional1 v-if="!isMobile"></SecaoPromocional1> 
+      
+
+      <!--<SecaoPromocional1 v-if="!isMobile"></SecaoPromocional1>  -->
 
       <mobileM-CarrousselOfertas1 v-if="isMobile"></mobileM-CarrousselOfertas1>
       <mobileM-CarrousselOfertas2 v-if="isMobile"></mobileM-CarrousselOfertas2>
         
-     <CarrousselOfertas1 v-if="!isMobile"></CarrousselOfertas1> 
+    
       
-
+<!-- <CarrousselOfertas1 v-if="isDesktop"></CarrousselOfertas1>  -->
     
 
    
 
-   <CarrousselOfertas2 v-if='isDesktop'></CarrousselOfertas2> 
-
+   
+<!--<CarrousselOfertas2 v-if='isDesktop'></CarrousselOfertas2>  -->
        
 
-       <CarrousselOfertas2 v-if="isDesktop"></CarrousselOfertas2> 
-
+<!--
+       <CarrousselOfertas2 v-if="isDesktop"></CarrousselOfertas2>  -->
   
         <M-CustomFooter v-if="isMobile"></M-CustomFooter>
        
