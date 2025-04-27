@@ -62,14 +62,19 @@
 
 <script setup>
 
-import { computed } from "vue";
-import { useWindowSize } from "@vueuse/core";
+import { ref, watch } from 'vue';
+import { useWindowSize } from '@vueuse/core';
 
 const { width } = useWindowSize();
 
-const isMobile = computed(() => width.value < 1024);
+const isMobile = ref(false);
+const isDesktop = ref(false);
 
-const isDesktop = computed(() => width.value >= 1024);
+// Atualiza toda vez que o width mudar
+watch(width, (newWidth) => {
+  isMobile.value = newWidth < 1024;
+  isDesktop.value = newWidth >= 1024;
+}, { immediate: true });
 
 
 </script>
