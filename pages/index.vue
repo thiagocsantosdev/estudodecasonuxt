@@ -8,7 +8,10 @@
           <OfertasCategorias />
           <SecaoPromocional1 />
           <CarrousselOfertas1 />
+          <EscolhaComodos></EscolhaComodos>
           <CarrousselOfertas2 />
+          <CarrousselOfertas2 />
+          <NewsLetters></NewsLetters>
         </template>
 
         <template v-else>
@@ -16,6 +19,10 @@
           <MobileMOfertasCategorias />
           <mobile-m-carroussel-ofertas1 />
           <mobile-m-carroussel-ofertas2 />
+          <mobile-m-comodos></mobile-m-comodos>
+          <mobile-m-carroussel-ofertas2 />
+          <mobile-m-carroussel-ofertas2 />
+          <mobile-m-NewsLetters></mobile-m-NewsLetters>
           <MCustomFooter />
         </template>
 
