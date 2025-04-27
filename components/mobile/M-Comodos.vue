@@ -22,13 +22,16 @@
         flex-direction: column;
         list-style: none;
         width: 90%;
+        gap: 20px;
     }
 
 
 
     li img{
-        width: 300px;
+        width: 350px;
         border-radius: 15px;
     }
+
+   
   
 </style>
