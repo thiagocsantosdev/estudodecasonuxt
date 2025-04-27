@@ -1,47 +1,27 @@
 <template>
+  <client-only>
     <div class="main">
-
-   
-    <div class="container-main">
-
-  
-
-
-    <CarrosselBannerIndex v-if="isDesktop"></CarrosselBannerIndex>
-
-    <MobileMCarrosselBannerIndex v-if="isMobile"></MobileMCarrosselBannerIndex>
-
-  
-    <OfertasCategorias v-if="isDesktop"></OfertasCategorias>  
-
-      <MobileMOfertasCategorias v-if="isMobile"></MobileMOfertasCategorias>
-    
-      
-
-    <SecaoPromocional1 v-if="isDesktop"></SecaoPromocional1> 
-
-      <mobileM-CarrousselOfertas1 v-if="isMobile"></mobileM-CarrousselOfertas1>
-      <mobileM-CarrousselOfertas2 v-if="isMobile"></mobileM-CarrousselOfertas2>
+      <div class="container-main">
         
-    
-      
-<CarrousselOfertas1 v-if="isDesktop"></CarrousselOfertas1> 
-    
+        <template v-if="isDesktop">
+          <CarrosselBannerIndex />
+          <OfertasCategorias />
+          <SecaoPromocional1 />
+          <CarrousselOfertas1 />
+          <CarrousselOfertas2 />
+        </template>
 
-   
+        <template v-else>
+          <MobileMCarrosselBannerIndex />
+          <MobileMOfertasCategorias />
+          <mobile-m-carroussel-ofertas1 />
+          <mobile-m-carroussel-ofertas2 />
+          <MCustomFooter />
+        </template>
 
-   
-<CarrousselOfertas2 v-if='isDesktop'></CarrousselOfertas2>  
-       
-
-
-       <CarrousselOfertas2 v-if="isDesktop"></CarrousselOfertas2> 
-        <M-CustomFooter v-if="isMobile"></M-CustomFooter>
-       
-     
-</div>
-
-</div>
+      </div>
+    </div>
+  </client-only>
 </template>
 
 
@@ -62,19 +42,14 @@
 
 <script setup>
 
-import { ref, watch } from 'vue';
-import { useWindowSize } from '@vueuse/core';
+import { computed } from "vue";
+import { useWindowSize } from "@vueuse/core";
 
 const { width } = useWindowSize();
 
-const isMobile = ref(false);
-const isDesktop = ref(false);
+const isMobile = computed(() => width.value < 1024);
 
-// Atualiza toda vez que o width mudar
-watch(width, (newWidth) => {
-  isMobile.value = newWidth < 1024;
-  isDesktop.value = newWidth >= 1024;
-}, { immediate: true });
+const isDesktop = computed(() => width.value >= 1024);
 
 
 </script>
