@@ -5,6 +5,6 @@
       
     
     <slot />
-      <CustomFooter></CustomFooter>
+     
   </div>
 </template>

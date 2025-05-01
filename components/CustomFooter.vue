@@ -44,8 +44,7 @@
 <style scoped>
 
 .container{
-    background-color: rgb(226, 223, 223);
-    
+
   margin-bottom: -20px;
     width: 100%;
     border-radius: 15px 15px 0px 0px;
