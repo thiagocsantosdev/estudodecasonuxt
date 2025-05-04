@@ -1,46 +1,47 @@
-
-
 <template>
+  <client-only>
     <main>
-        <div class="container-main">
-            
-         <PagesComponentsHidraulicaCarrousselOfertasHidra></PagesComponentsHidraulicaCarrousselOfertasHidra>
-         <PagesComponentsHidraulicaCarrousselOfertasHidraAcessorios></PagesComponentsHidraulicaCarrousselOfertasHidraAcessorios>
-         
-         <PagesComponentsHidraulicaCarrousselOfertasHidraDuchas></PagesComponentsHidraulicaCarrousselOfertasHidraDuchas>
-         <div class="img-container">
-            <img src="/banners_hidraulica/banner.avif" alt="">
-         </div>
-         
-         <PagesComponentsHidraulicaCarrousselOfertasHidraConexoes></PagesComponentsHidraulicaCarrousselOfertasHidraConexoes>
-    
-        </div>
+      <div>
+
+        <template v-if="isDesktop">
+          <PagesComponentsHidraulicaCarrousselOfertasHidra />
+          <PagesComponentsHidraulicaCarrousselOfertasHidraAcessorios />
+        
+          <PagesComponentsHidraulicaCarrousselOfertasHidraDuchas />
+  
+          <PagesComponentsHidraulicaImgBanner/>
+          <PagesComponentsHidraulicaCarrousselOfertasHidraConexoes />
+        </template>
+ 
+        <template v-else>
+            <MobilePagesComponentsHidraulicaMCarrousselOfertasHidraAcessorios></MobilePagesComponentsHidraulicaMCarrousselOfertasHidraAcessorios>
+            <MobilePagesComponentsHidraulicaMCarrousselOfertasHidraAcessorios></MobilePagesComponentsHidraulicaMCarrousselOfertasHidraAcessorios>
+                <img class="bannerMobile" src="/banners_hidraulica/bannerMobile.avif" alt="">
+            <MobilePagesComponentsHidraulicaMCarrousselOfertasHidraAcessorios></MobilePagesComponentsHidraulicaMCarrousselOfertasHidraAcessorios>
+          
+        </template>
+
+      </div>
     </main>
-</template>
-
-
-<style scoped>
-
-
-
-main{
-    display: grid;
-    place-items: center;
-}
-
-
-.container-main{
-    max-width: 1460px;
-}
-.img-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 100%;
-}
-
-img{
-    border-radius: 5px;
-}
-</style>
+  </client-only>
+  </template>
+  
+  <style scoped>
+    .bannerMobile{
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+  </style>
+  
+  <script setup>
+  import { computed } from "vue";
+  import { useWindowSize } from "@vueuse/core";
+import { PagesComponentsHidraulicaImgBanner } from "#components";
+  
+  const { width } = useWindowSize();
+  
+  const isMobile = computed(() => width.value < 1024);
+  const isDesktop = computed(() => width.value >= 1024);
+  </script>
+  

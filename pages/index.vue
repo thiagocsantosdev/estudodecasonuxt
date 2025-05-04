@@ -23,11 +23,12 @@
           <mobile-m-carroussel-ofertas2 />
           <mobile-m-carroussel-ofertas2 />
           <mobile-m-NewsLetters></mobile-m-NewsLetters>
-          <MCustomFooter />
+         
         </template>
 
       </div>
     </div>
+  
   </client-only>
 </template>
 
