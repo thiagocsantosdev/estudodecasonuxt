@@ -15,9 +15,9 @@
  
         <template v-else>
             <MobilePagesComponentsHidraulicaMCarrousselOfertasHidraAcessorios></MobilePagesComponentsHidraulicaMCarrousselOfertasHidraAcessorios>
-            <MobilePagesComponentsHidraulicaMCarrousselOfertasHidraAcessorios></MobilePagesComponentsHidraulicaMCarrousselOfertasHidraAcessorios>
+            <MobilePagesComponentsHidraulicaMCarrousselOfertasHidraConexoes>  </MobilePagesComponentsHidraulicaMCarrousselOfertasHidraConexoes>
                 <img class="bannerMobile" src="/banners_hidraulica/bannerMobile.avif" alt="">
-            <MobilePagesComponentsHidraulicaMCarrousselOfertasHidraAcessorios></MobilePagesComponentsHidraulicaMCarrousselOfertasHidraAcessorios>
+            <MobilePagesComponentsHidraulicaMCarrousselOfertasHidraDuchas></MobilePagesComponentsHidraulicaMCarrousselOfertasHidraDuchas>
           
         </template>
 

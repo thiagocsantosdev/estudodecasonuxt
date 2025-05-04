@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <p class="title">
-         Acessorios
+            Duchas, Torneira e Cubas
         </p> 
         <Carousel :value="productsFilter" :numVisible="2" :showNavigators="false" :numScroll="1" :responsiveOptions="responsiveOptions">
             <template #item="{ data }">
@@ -32,7 +32,7 @@ import { ref, onMounted } from "vue";
 const products = ref([]);
  
 const productsFilter = computed(()=>
-products.value.filter((item) => item.category1 === "hidraulica" && item.category2 === "acessorios"))
+products.value.filter((item) => item.category1 === "hidraulica" && item.category2 === "ducha"))
 
 const responsiveOptions = ref([
     { breakpoint: '1400px', numVisible: 3, numScroll: 1},
