@@ -27,6 +27,9 @@ export default defineEventHandler(() => {
             price: 2.95,
             image: "/produtos/superpromo/lampada-9w-fox-6500k.png",
             inventoryStatus: "",
+            category1:"eletrica",
+            category2:"lampadas",
+            comodo:"default"
             
         },
         {
@@ -34,7 +37,10 @@ export default defineEventHandler(() => {
             name: "Ventilador Teto WindLight",
             price: 309.99,
             image: "/produtos/eletro/ventisol/ventilador-windlight.png",
-            inventoryStatus: "INSTOCK"
+            inventoryStatus: "INSTOCK",
+            category1:"eletro",
+            category2:"ventilador",
+            comodo:"default"
         },
         {
             id: 5,
@@ -216,6 +222,180 @@ export default defineEventHandler(() => {
             category1:"hidraulica",
             category2:"ducha",
             comodo:"banheiro"
-        }
+        },{
+            id: 21,
+            name: "Extensão 5mts",
+            price: 26.95,
+            image: "/produtos/eletrica/extensao.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"acessorios",
+            comodo:"banheiro"
+        },
+        {
+            id: 22,
+            name: "Disjuntor Mono 40",
+            price: 16.95,
+            image: "/produtos/eletrica/disjuntor40.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"disjuntor",
+            comodo:"banheiro"
+        },{
+            id: 23,
+            name: "Fita Isolante",
+            price: 6.52,
+            image: "/produtos/eletrica/fitaisolante.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"acessorios",
+            comodo:"banheiro"
+        },{
+            id: 24,
+            name: "Kit Padrao",
+            price: 156.54,
+            image: "/produtos/eletrica/kitpadrao.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"acessorios",
+            comodo:"banheiro"
+        },{
+            id: 25,
+            name: "Lampada Fox",
+            price: 2.95,
+            image: "/produtos/eletrica/lampadafox.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"lampada",
+            comodo:"banheiro"
+        },{
+            id: 26,
+            name: "Tomada Dupla",
+            price: 16.25,
+            image: "/produtos/eletrica/tomadadupla.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"tomada",
+            comodo:"banheiro"
+        },{
+            id: 27,
+            name: "Quadro Distribuidor",
+            price: 26.95,
+            image: "/produtos/eletrica/quadro.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"disjuntor",
+            comodo:"banheiro"
+        },{
+            id: 28,
+            name: "Cabo Sil 2,5",
+            price: 226.45,
+            image: "/produtos/eletrica/cabosilfex.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"cabos",
+            comodo:"banheiro"
+        },{
+            id: 29,
+            name: "Cabo Sil 4mm",
+            price: 415.05,
+            image: "/produtos/eletrica/cabosilflexpt.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"cabos",
+            comodo:"banheiro"
+        },{
+            id: 30,
+            name: "Extensão 5mts",
+            price: 26.95,
+            image: "/produtos/eletrica/extensao.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"acessorios",
+            comodo:"banheiro"
+        },{
+            id: 31,
+            name: "Kit Fita Coloridas",
+            price: 15.95,
+            image: "/produtos/eletrica/kitfitaisolante.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"acessorios",
+            comodo:"banheiro"
+        },{
+            id: 32,
+            name: "Transformador",
+            price: 399.99,
+            image: "/produtos/eletrica/transformador.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"acessorios",
+            comodo:"banheiro"
+        },{
+            id: 33,
+            name: "Cabo PP 2x2,5",
+            price: 599.99,
+            image: "/produtos/eletrica/caboppcobrecom.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"cabos",
+        },{
+            id: 34,
+            name: "Cabo pp 2x1,5",
+            price: 399.99,
+            image: "/produtos/eletrica/caboppsil.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"cabos"
+        },{
+            id: 36,
+            name: "Paralelo 2x1,0",
+            price: 299.99,
+            image: "/produtos/eletrica/fioparalelo.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"cabos",
+        },{
+            id: 37,
+            name: "Disjuntor Dps 20ka",
+            price: 69.99,
+            image: "/produtos/eletrica/disjuntordps.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"disjuntor",
+        },{
+            id: 38,
+            name: "Disjuntor IDR 40",
+            price: 109.92,
+            image: "/produtos/eletrica/disjuntordr.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"disjuntor",
+        },{
+            id: 39,
+            name: "Quadro P1 Disjuntor",
+            price: 10.99,
+            image: "/produtos/eletrica/quadro1.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"disjuntor",
+        },{
+            id: 40,
+            name: "Disjuntor Bipolar20",
+            price: 29.99,
+            image: "/produtos/eletrica/disjuntorbipolar.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"disjuntor",
+        },{
+            id: 41,
+            name: "Cabo SIl 6mm",
+            price: 599.99,
+            image: "/produtos/eletrica/cabosilflex.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"cabos",
+            comodo:"banheiro"
+        },
     ];
 });
