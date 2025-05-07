@@ -10,7 +10,7 @@
           <CarrousselOfertas1 />
           <EscolhaComodos></EscolhaComodos>
           <CarrousselOfertas2 />
-          <CarrousselOfertas2 />
+          <CarrousselOfertas3 />
           <NewsLetters></NewsLetters>
         </template>
 

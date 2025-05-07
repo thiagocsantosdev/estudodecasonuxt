@@ -9,7 +9,8 @@ export default defineEventHandler(() => {
             typeProduct:"assento",
             category1:"hidraulica",
             category2:"acessorios",
-            comodo:"banheiro"
+            comodo:"banheiro",
+            promo:"true"
         },
         {
             id: 2,
@@ -19,7 +20,8 @@ export default defineEventHandler(() => {
             inventoryStatus: "SALDAO",
             category1:"hidraulica",
             category2:"acessorios",
-            comodo:"banheiro"
+            comodo:"banheiro",
+            promo:"true"
         },
         {
             id: 3,
@@ -29,7 +31,8 @@ export default defineEventHandler(() => {
             inventoryStatus: "",
             category1:"eletrica",
             category2:"lampadas",
-            comodo:"default"
+            comodo:"default",
+            promo:"true"
             
         },
         {
@@ -57,14 +60,16 @@ export default defineEventHandler(() => {
             name: "Durepoxi 50g",
             price: 4.99,
             image: "/produtos/quimicos/adesivos/loctite/durepox-50g.png",
-            inventoryStatus: "INSTOCK"
+            inventoryStatus: "INSTOCK",
+            promo:"true"
         },
         {
             id: 7,
             name: "Alicate Universal 8",
             price: 19.99,
             image: "/produtos/ferramentas/startools/alicate-universal8-startools.png",
-            inventoryStatus: "INSTOCK"
+            inventoryStatus: "INSTOCK",
+            promo:"true"
         },
         {
             id: 8,
@@ -167,7 +172,8 @@ export default defineEventHandler(() => {
             inventoryStatus: "INSTOCK",
             category1:"hidraulica",
             category2:"conexoes",
-            comodo:"banheiro"
+            comodo:"banheiro",
+            promo:"true"
         },{
             id: 18,
             name: "Nipel Roscavel",
@@ -230,7 +236,7 @@ export default defineEventHandler(() => {
             inventoryStatus: "INSTOCK",
             category1:"eletrica",
             category2:"acessorios",
-            comodo:"banheiro"
+            promo:"true"
         },
         {
             id: 22,
@@ -240,7 +246,7 @@ export default defineEventHandler(() => {
             inventoryStatus: "INSTOCK",
             category1:"eletrica",
             category2:"disjuntor",
-            comodo:"banheiro"
+           
         },{
             id: 23,
             name: "Fita Isolante",
@@ -249,7 +255,7 @@ export default defineEventHandler(() => {
             inventoryStatus: "INSTOCK",
             category1:"eletrica",
             category2:"acessorios",
-            comodo:"banheiro"
+            promo:"true"
         },{
             id: 24,
             name: "Kit Padrao",
@@ -258,7 +264,7 @@ export default defineEventHandler(() => {
             inventoryStatus: "INSTOCK",
             category1:"eletrica",
             category2:"acessorios",
-            comodo:"banheiro"
+            
         },{
             id: 25,
             name: "Lampada Fox",
@@ -267,7 +273,7 @@ export default defineEventHandler(() => {
             inventoryStatus: "INSTOCK",
             category1:"eletrica",
             category2:"lampada",
-            comodo:"banheiro"
+            
         },{
             id: 26,
             name: "Tomada Dupla",
@@ -276,7 +282,7 @@ export default defineEventHandler(() => {
             inventoryStatus: "INSTOCK",
             category1:"eletrica",
             category2:"tomada",
-            comodo:"banheiro"
+            
         },{
             id: 27,
             name: "Quadro Distribuidor",
@@ -285,7 +291,7 @@ export default defineEventHandler(() => {
             inventoryStatus: "INSTOCK",
             category1:"eletrica",
             category2:"disjuntor",
-            comodo:"banheiro"
+           
         },{
             id: 28,
             name: "Cabo Sil 2,5",
@@ -294,7 +300,7 @@ export default defineEventHandler(() => {
             inventoryStatus: "INSTOCK",
             category1:"eletrica",
             category2:"cabos",
-            comodo:"banheiro"
+           
         },{
             id: 29,
             name: "Cabo Sil 4mm",
@@ -303,7 +309,7 @@ export default defineEventHandler(() => {
             inventoryStatus: "INSTOCK",
             category1:"eletrica",
             category2:"cabos",
-            comodo:"banheiro"
+           
         },{
             id: 30,
             name: "Extensão 5mts",
@@ -312,7 +318,7 @@ export default defineEventHandler(() => {
             inventoryStatus: "INSTOCK",
             category1:"eletrica",
             category2:"acessorios",
-            comodo:"banheiro"
+          
         },{
             id: 31,
             name: "Kit Fita Coloridas",
@@ -321,7 +327,7 @@ export default defineEventHandler(() => {
             inventoryStatus: "INSTOCK",
             category1:"eletrica",
             category2:"acessorios",
-            comodo:"banheiro"
+            
         },{
             id: 32,
             name: "Transformador",
@@ -330,7 +336,7 @@ export default defineEventHandler(() => {
             inventoryStatus: "INSTOCK",
             category1:"eletrica",
             category2:"acessorios",
-            comodo:"banheiro"
+        
         },{
             id: 33,
             name: "Cabo PP 2x2,5",
@@ -395,7 +401,7 @@ export default defineEventHandler(() => {
             inventoryStatus: "INSTOCK",
             category1:"eletrica",
             category2:"cabos",
-            comodo:"banheiro"
+        
         },
     ];
 });

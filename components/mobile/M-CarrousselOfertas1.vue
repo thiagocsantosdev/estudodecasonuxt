@@ -3,7 +3,7 @@
         <p class="title">
             Principais Ofertas
         </p> 
-        <Carousel :value="products" :numVisible="2" :showNavigators="false" :numScroll="1" :responsiveOptions="responsiveOptions">
+        <Carousel :value="productsFilter" :numVisible="2" :showNavigators="false" :numScroll="1" :responsiveOptions="responsiveOptions">
             <template #item="{ data }">
                 <div class="product-card">
                     <div class="image-container">
@@ -30,6 +30,8 @@
 import { ref, onMounted } from "vue";
 
 const products = ref([]);
+const productsFilter = computed(()=>
+products.value.filter((item) => item.promo ==="true"))
 const responsiveOptions = ref([
     { breakpoint: '1400px', numVisible: 3, numScroll: 1},
     { breakpoint: '1199px', numVisible: 3, numScroll: 1},

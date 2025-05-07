@@ -13,6 +13,7 @@ ul{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    list-style: none;
 }
 
 li img{

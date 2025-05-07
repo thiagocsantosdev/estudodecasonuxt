@@ -31,7 +31,7 @@ import { ref, onMounted } from "vue";
 
 const products = ref([]);
 const productsFilter = computed(()=>
-products.value.filter((item) => (item.comodo ==="banheiro" && item.category2 === "acessorios")))
+products.value.filter((item) => (item.category1 ==="eletrica" && (item.category2 === "disjuntor" || item.category2 ==="quadro"))))
 const responsiveOptions = ref([
     { breakpoint: '1400px', numVisible: 3, numScroll: 1},
     { breakpoint: '1199px', numVisible: 3, numScroll: 1},

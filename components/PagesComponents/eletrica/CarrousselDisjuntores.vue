@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <p class="title">
-            Duchas , Torneiras e Cubas.
+           Quadros e Disjuntores
         </p> 
         <Carousel :value="productsFilter" :numVisible="6" :numScroll="1" :responsiveOptions="responsiveOptions">
             <template #item="{data}">
