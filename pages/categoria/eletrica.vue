@@ -6,12 +6,14 @@
           <template v-if="isDesktop">
                     <PagesComponentsEletricaCarrousselAcessorios/>
                     <PagesComponentsEletricaCarrousselCabos/>
+                    <PagesComponentsEletricaImgBanner/>
                     <PagesComponentsEletricaCarrousselDisjuntores/>
           </template>
    
           <template v-else>
             <MobilePagesComponentsEletricaCarrousselAcessorios/>
             <MobilePagesComponentsEletricaCarrousselDisjuntores/>
+            <img class="bannerMobile" src="/banners_eletrica/bannerMobile.avif" alt="">
             <MobilePagesComponentsEletricaCarrousselFios/>
           </template>
   

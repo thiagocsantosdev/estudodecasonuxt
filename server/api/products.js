@@ -296,7 +296,7 @@ export default defineEventHandler(() => {
             id: 28,
             name: "Cabo Sil 2,5",
             price: 226.45,
-            image: "/produtos/eletrica/cabosilfex.avif",
+            image: "/produtos/eletrica/cabosilflex.avif",
             inventoryStatus: "INSTOCK",
             category1:"eletrica",
             category2:"cabos",

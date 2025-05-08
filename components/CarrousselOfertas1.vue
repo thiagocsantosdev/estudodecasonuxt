@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <p class="title">
-            Principais Ofertas
+            Super Promo!
         </p> 
         <Carousel :value="productsFilter" :numVisible="6" :numScroll="1" :responsiveOptions="responsiveOptions">
             <template #item="{ data }">

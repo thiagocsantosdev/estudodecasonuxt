@@ -11,6 +11,7 @@
           <EscolhaComodos></EscolhaComodos>
           <CarrousselOfertas2 />
           <CarrousselOfertas3 />
+          <CarrousselOfertas4 />
           <NewsLetters></NewsLetters>
         </template>
 
@@ -20,8 +21,8 @@
           <mobile-m-carroussel-ofertas1 />
           <mobile-m-carroussel-ofertas2 />
           <mobile-m-comodos></mobile-m-comodos>
-          <mobile-m-carroussel-ofertas2 />
-          <mobile-m-carroussel-ofertas2 />
+          <mobile-m-carroussel-ofertas3 />
+          <mobile-m-carroussel-ofertas4 />
           <mobile-m-NewsLetters></mobile-m-NewsLetters>
          
         </template>

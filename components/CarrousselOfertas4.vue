@@ -1,9 +1,9 @@
 <template>
     <div class="card">
         <p class="title">
-            Segurança na Elétrica
+        Ofertas Especiais
         </p> 
-        <Carousel :value="productsFilter" :numVisible="2" :showNavigators="false" :numScroll="1" :responsiveOptions="responsiveOptions">
+        <Carousel :value="productsFilter" :numVisible="6" :numScroll="1" :responsiveOptions="responsiveOptions">
             <template #item="{ data }">
                 <div class="product-card">
                     <div class="image-container">
@@ -15,8 +15,8 @@
                         <div class="product-footer">
                             <span class="product-price">R$:{{ data.price }}</span>
                             <div class="buttons">
-                                <Button icon="pi pi-heart" severity="secondary" outlined />
-                                <Button icon="pi pi-shopping-cart" class="ml-2"/>
+
+                               <button>Comprar</button>
                             </div>
                         </div>
                     </div>
@@ -31,12 +31,12 @@ import { ref, onMounted } from "vue";
 
 const products = ref([]);
 const productsFilter = computed(()=>
-products.value.filter((item) => (item.category1 ==="eletrica" && (item.category2 === "disjuntor" || item.category2 ==="quadro"))))
+products.value.filter((item) => (item.category1 ==="eletrica" && (item.category2 === "cabos" || item.category2 ==="acessorios"))))
 const responsiveOptions = ref([
-    { breakpoint: '1400px', numVisible: 3, numScroll: 1},
-    { breakpoint: '1199px', numVisible: 3, numScroll: 1},
+    { breakpoint: '1400px', numVisible: 6, numScroll: 1 },
+    { breakpoint: '1199px', numVisible: 6, numScroll: 1 },
     { breakpoint: '767px', numVisible: 2, numScroll: 1 },
-    { breakpoint: '575px', numVisible: 2, numScroll: 1 }
+    { breakpoint: '575px', numVisible: 1, numScroll: 1 }
 ]);
 
 const fetchProducts = async () => {
@@ -64,23 +64,6 @@ const getSeverity = (status) => {
 </script>
 
 <style scoped>
-
-
-.card{
-    width: 100dvw;
-}
-
-.title{
-    font-family: 'Helvetica';
-    font-size: 1rem;
-    margin-left: 10px;
-    margin-top: 20px;
-    color: #414452;
-}
-
-
-
-
 /* Estilização do card de produto */
 .product-card {
     border: 1px solid #ddd;
@@ -89,9 +72,18 @@ const getSeverity = (status) => {
     text-align: center;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     background-color: white;
-    width: 180px;
+    width: 200px;
     height: 300px;
-    margin: 5px;
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    margin-top: 60px;
+    margin-left: 40px;
 }
 
 /* Estilização da imagem */
@@ -100,16 +92,11 @@ const getSeverity = (status) => {
     width: 100%;
     display: flex;
     justify-content: center;
-
-
 }
 
 .product-image {
     max-width: 100%;
     border-radius: 5px;
-    height:140px;
-    margin-top: 20px;
-   
 }
 
 /* Tag de status do produto */
@@ -118,8 +105,6 @@ const getSeverity = (status) => {
     top: 5px;
     left: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: .6rem;
-  
 }
 
 /* Nome do produto */
@@ -128,8 +113,6 @@ const getSeverity = (status) => {
     margin: 10px 0;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
-    height: 40px;
-
 }
 
 /* Rodapé do card com preço e botões */
@@ -138,19 +121,29 @@ const getSeverity = (status) => {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-    flex-direction: column;
 }
 
 .product-price {
-    font-size: 1.4rem;
-    
-    color: #1f1f1f;
-    font-family:'impact'
-
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #27ae60;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.buttons {
-    display: flex;
-    gap: 10px;
+button{
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    opacity: .8;
+    transition: 600ms;
+}
+
+
+button:hover{
+    cursor: pointer;
+    opacity: 1;
+    transition: 600ms;
 }
 </style>
