@@ -4,13 +4,13 @@
       <div class="container-main">
 
         <template v-if="isDesktop">
-          <PagesComponentsHidraulicaCarrousselOfertasHidra />
-          <PagesComponentsHidraulicaCarrousselOfertasHidraAcessorios />
+         
+          <PagesComponentsFerramentasCarrousselOfertasFerramentasAcessorios />
         
-          <PagesComponentsHidraulicaCarrousselOfertasHidraDuchas />
+          <PagesComponentsFerramentasCarrousselOfertasFerramentas/>
   
-          <PagesComponentsHidraulicaImgBanner/>
-          <PagesComponentsHidraulicaCarrousselOfertasHidraConexoes />
+          <PagesComponentsFerramentasImgBanner/>
+          <PagesComponentsFerramentasCarrousselOfertasFerramentasDiscos />
         </template>
  
         <template v-else>

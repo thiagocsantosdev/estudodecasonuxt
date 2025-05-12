@@ -402,6 +402,195 @@ export default defineEventHandler(() => {
             category1:"eletrica",
             category2:"cabos",
         
-        },
+        },{
+            id: 42,
+            name: "Cabo SIl 6mm",
+            price: 599.99,
+            image: "/produtos/eletrica/cabosilflex.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"eletrica",
+            category2:"cabos",
+        
+        },{
+            id: 43,
+            name: "furadeira 127",
+            price: 199.99,
+            image: "/produtos/ferramentas/furadeira.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"eletrica",
+        
+        },{
+            id: 44,
+            name: "Serra Marmore",
+            price: 499.99,
+            image: "/produtos/ferramentas/serramarmore.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"eletrica",
+        
+        },{
+            id: 45,
+            name: "Prego 1kg",
+            price: 19.50,
+            image: "/produtos/ferramentas/prego.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"acessorios",
+        
+        },{
+            id: 46,
+            name: "Serra Marmore C/ KIT",
+            price: 599.99,
+            image: "/produtos/ferramentas/serramarmore.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"eletrica",
+        
+        },{
+            id: 47,
+            name: "Lamina de Serra",
+            price: 15.92,
+            image: "/produtos/ferramentas/laminaserra.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"acessorios",
+        
+        },{
+            id: 48,
+            name: "Kit c/ 10 discos",
+            price: 29.99,
+            image: "/produtos/ferramentas/kitdisco.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"discos",
+        
+        },{
+            id: 49,
+            name: "Espacador",
+            price: 12.49,
+            image: "/produtos/ferramentas/espacador.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"acessorios",
+        
+        },{
+            id: 50,
+            name: "Kit c/ 10 discos",
+            price: 299.99,
+            image: "/produtos/ferramentas/esmerilhadeira.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"eletrica",
+        
+        },{
+            id: 51,
+            name: "Disco corte",
+            price: 3.49,
+            image: "/produtos/ferramentas/discostarret.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"discos",
+        
+        },{
+            id: 52,
+            name: "Disco Parede",
+            price: 12.39,
+            image: "/produtos/ferramentas/discosegmentado.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"discos",
+        
+        },{
+            id: 53,
+            name: "Disco Madeira",
+            price: 14.69,
+            image: "/produtos/ferramentas/discomadeira.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"discos",
+        
+        },{
+            id: 54,
+            name: "Disco Flap 100",
+            price: 6.99,
+            image: "/produtos/ferramentas/discoflap.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"discos",
+        
+        },{
+            id: 55,
+            name: "Kit 10 Bucha 8",
+            price: 1.99,
+            image: "/produtos/ferramentas/bucha10.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"acessorios",
+        
+        },{
+            id: 56,
+            name: "Arame Cozido 1kg",
+            price: 22.75,
+            image: "/produtos/ferramentas/aramerecozido.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"acessorios",
+        
+        },{
+            id: 57,
+            name: "Arame Farpado 100mts",
+            price: 79.99,
+            image: "/produtos/ferramentas/aramefarpado.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"acessorios",
+        
+        },{
+            id: 58,
+            name: "Trena Profissional",
+            price: 29.99,
+            image: "/produtos/ferramentas/trenastarret.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"manuais",
+        
+        },{
+            id: 59,
+            name: "Trena Hobby",
+            price: 12.56,
+            image: "/produtos/ferramentas/trenahobby.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"manuais",
+        
+        },{
+            id: 60,
+            name: "Cortador Piso 1mt",
+            price: 399.99,
+            image: "/produtos/ferramentas/cortadorpiso.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"manuais",
+        
+        },{
+            id: 61,
+            name: "Martelo Cabo Fibra",
+            price: 29.99,
+            image: "/produtos/ferramentas/martelofibra.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"manuais",
+        
+        },{
+            id: 62,
+            name: "Disco Flap 120",
+            price: 6.99,
+            image: "/produtos/ferramentas/discoflap.avif",
+            inventoryStatus: "INSTOCK",
+            category1:"ferramenta",
+            category2:"discos",
+        
+        }
     ];
 });

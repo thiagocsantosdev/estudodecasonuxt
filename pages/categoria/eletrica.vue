@@ -1,7 +1,7 @@
 <template>
     <client-only>
-      <main>
-        <div>
+      <main >
+        <div class="container-main">
   
           <template v-if="isDesktop">
                     <PagesComponentsEletricaCarrousselAcessorios/>
@@ -28,6 +28,17 @@
           border-radius: 5px;
           margin-top: 20px;
       }
+
+      main{
+    display: grid;
+    place-items: center;
+}
+
+.container-main{
+    max-width: 1460px;
+}
+
+
     </style>
     
     <script setup>

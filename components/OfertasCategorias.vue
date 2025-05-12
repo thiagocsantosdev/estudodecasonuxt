@@ -20,7 +20,7 @@ import { ref } from "vue";
 const products = ref([
 { name: "Produto 1", image: "CatagoriasIcons/hidraulica.png", price: 100, inventoryStatus: "INSTOCK", link: "/categoria/hidraulica"},
     { name: "Produto 2", image: "CatagoriasIcons/eletrica.png", price: 100, inventoryStatus: "INSTOCK", link: "/categoria/eletrica" },
-    { name: "Produto 3", image: "CatagoriasIcons/ferramentas.png", price: 100, inventoryStatus: "INSTOCK" },
+    { name: "Produto 3", image: "CatagoriasIcons/ferramentas.png", price: 100, inventoryStatus: "INSTOCK", link: "/categoria/ferramentas"},
     { name: "Produto 4", image: "CatagoriasIcons/iluminacao.png", price: 100, inventoryStatus: "INSTOCK" },
     { name: "Produto 5", image: "CatagoriasIcons/pintura.png", price: 100, inventoryStatus: "INSTOCK" },
     { name: "Produto 5", image: "CatagoriasIcons/smart.png", price: 100, inventoryStatus: "INSTOCK" },
