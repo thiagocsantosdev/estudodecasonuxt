@@ -1,7 +1,7 @@
 <template>
 
     <div>
-        <img src="/banners_hidraulica/banner.avif" alt="">
+        <img src="/banners_ferramentas/banner.avif" alt="">
     </div>
 
 </template>

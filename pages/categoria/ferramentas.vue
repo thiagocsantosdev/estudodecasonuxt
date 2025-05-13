@@ -16,7 +16,7 @@
         <template v-else>
            <MobilePagesComponentsFerramentaMCarrousselOfertasDiscos/>
            <MobilePagesComponentsFerramentaMCarrousselOfertasFerramentaAcessorios/>
-                <img class="bannerMobile" src="/banners_hidraulica/bannerMobile.avif" alt="">
+                <img class="bannerMobile" src="/banners_ferramentas/bannerMobile.avif" alt="">
         <MobilePagesComponentsFerramentaMCarrousselOfertasFerramenta/>
           
         </template>

@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <p class="title">
-            Duchas, Torneira e Cubas
+           Discos 
         </p> 
         <Carousel :value="productsFilter" :numVisible="2" :showNavigators="false" :numScroll="1" :responsiveOptions="responsiveOptions">
             <template #item="{ data }">
