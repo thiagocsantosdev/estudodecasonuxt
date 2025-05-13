@@ -14,10 +14,10 @@
         </template>
  
         <template v-else>
-            <MobilePagesComponentsHidraulicaMCarrousselOfertasHidraAcessorios></MobilePagesComponentsHidraulicaMCarrousselOfertasHidraAcessorios>
-            <MobilePagesComponentsHidraulicaMCarrousselOfertasHidraConexoes>  </MobilePagesComponentsHidraulicaMCarrousselOfertasHidraConexoes>
+           <MobilePagesComponentsFerramentaMCarrousselOfertasDiscos/>
+           <MobilePagesComponentsFerramentaMCarrousselOfertasFerramentaAcessorios/>
                 <img class="bannerMobile" src="/banners_hidraulica/bannerMobile.avif" alt="">
-            <MobilePagesComponentsHidraulicaMCarrousselOfertasHidraDuchas></MobilePagesComponentsHidraulicaMCarrousselOfertasHidraDuchas>
+        <MobilePagesComponentsFerramentaMCarrousselOfertasFerramenta/>
           
         </template>
 
