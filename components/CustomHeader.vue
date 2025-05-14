@@ -46,6 +46,37 @@ import { ref } from "vue";
 
 const items = ref([
     {
+        label: 'Hidraulica',
+        root: true,
+        items: [
+            [
+                {
+                    items: [
+                        { label: 'Tubos e Conexoes', icon: '/produtos/hidraulica/tesgoto.avif', subtext: 'Esgoto e Àgua fria', link :'/categoria/eletrica'  },
+                        { label: 'Fitas e Colas', icon: '/produtos/hidraulica/vedarosca.avif', subtext: 'Linha Hobby e Profissional' },
+                        { label: 'Acessorios', icon: '/produtos/hidraulica/registro.avif', subtext: 'Registros e Valvulas' }
+                    ]
+                }
+            ],
+            [
+                {
+                    items: [
+                        { label: 'Torneiras', icon: '/produtos/hidraulica/torneirabica.avif', subtext: 'Plásticas e Metal' },
+                        { label: 'Cubas', icon: '/produtos/hidraulica/lavatorio-herc.avif', subtext: 'Cozinha , Banheiro e Área de Serviço' },
+                        { label: 'Chuveiros', icon: '/produtos/hidraulica/duchablack.avif', subtext: 'Subtext of item' }
+                    ]
+                }
+            ],
+            
+            [
+                {
+                    items: [{ image: '/banners_hidraulica/bannermobile.avif', label: 'Compre pelo WhatsApp', subtext: 'Antecipe suas compras' }]
+                }
+            ]
+        ],
+        
+    }, 
+    {
         label: 'Elétrica',
         root: true,
         items: [
@@ -81,7 +112,37 @@ const items = ref([
                     items: [{ image: 'banner-eletrica-wp.png', label: 'Compre pelo WhatsApp', subtext: 'Antecipe suas compras' }]
                 }
             ]
-        ]
+        ],
+        
+    },  {
+        label: 'Ferramentas',
+        root: true,
+        items: [
+            [
+                {
+                    items: [
+                        { label: 'Discos', icon: '/produtos/ferramentas/dicocortag.avif', subtext: 'Porcelanato,pisos,madeira', link :'/categoria/eletrica'  },
+                        { label: 'Ferramentas Elétricas', icon: '/produtos/ferramentas/serramarmore.avif', subtext: 'Furadeiras, Serra Marmores, Lixadeiras' },
+                        { label: 'Ferramentas Manuais', icon: '/produtos/ferramentas/trenastarret.avif', subtext: 'Trenas Profissionais e Hobby' }
+                    ]
+                }
+            ],
+            [
+                {
+                    items: [
+                        { label: 'Buchas E Parafusos', icon: '/produtos/ferramentas/bucha10.avif', subtext: 'Buchas de Parede,Gesso e Bloco' },
+                        { label: 'Pregos', icon: '/produtos/ferramentas/prego.avif', subtext: 'Tamanhos Variados' },
+                        { label: 'Arames', icon: '/produtos/ferramentas/aramefarpado.avif', subtext: 'Recozido e Galvanizados' }
+                    ]
+                }
+            ],
+            [
+                {
+                    items: [{ image: 'banner-eletrica-wp.png', label: 'Compre pelo WhatsApp', subtext: 'Antecipe suas compras' }]
+                }
+            ]
+        ],
+        
     }, 
             
         
